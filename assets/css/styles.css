@@ -1,0 +1,117 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #616971;
+}
+
+h1 {
+  font-weight: 600;
+  color: var(--bs-dark);
+}
+
+.fixed-background {
+  overflow: hidden;
+}
+
+.top-bar {
+  background: var(--bs-gray-500);
+  height: 2.5rem;
+  padding: .5rem 0;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  height: 2.5rem;
+  padding-left: .5rem;
+}
+
+.navbar {
+  /*font-weight: 600;*/
+  /*letter-spacing: .1rem;*/
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  z-index: 1;
+}
+
+.nav-item {
+  padding: .1rem;
+}
+
+.nav-link {
+  color: #5b5555!important;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #4981b3!important;
+}
+
+.padding {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+#carousel-1 {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+
+.carousel-item h1 {
+  text-shadow: .1rem .1rem .3rem rgba( 0, 0, 0, 1);
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  color: var(--bs-light);
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  transition: transform 1.2s ease;
+}
+
+.carousel-inner {
+  /*max-height: 30rem!important;*/
+}
+
+.bg-custom {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  border-radius: .5rem;
+}
+
+.navbar {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.border-primary {
+  border-color: #ffffff!important;
+}
+
+#pengalaman h3 {
+  font-size: 4rem!important;
+  color: var(--bs-danger);
+  font-weight: 800;
+}
+
+#pengalaman p {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#layanan p {
+  font-size: .8rem!important;
+}
+
+#layanan i {
+  color: var(--bs-danger);
+}
+
+.container {
+  max-width: 900px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  margin-top: 225px;
+}
+
